@@ -1,13 +1,7 @@
 20.09.2018 czwartek 18:00
--------------------------
-<<<<<<< HEAD
-1.
-2.
-3.
-4.Aleks Majerowicz (KotLuminos)
-
 =======
 1. Rafa³ Krawczyk
 2. Ignacy "Ignus314" Kus
 3. Szymon Brzozowski
->>>>>>> 368f7667089aa44df722247f5defc7189857ff14
+4.Aleks Majerowicz (KotLuminos)
+
