@@ -1,3 +1,32 @@
 Witam :D Tutaj bade pojawiac sie komendy dotycz¹ce gita.
 Komedy bêd¹ akualizowane na bie¿¹co w ka¿dy¹ sobote albo niedziele.
-Akutalizaje mozecie sie spodziewac miedzy 12.00 az do 21.00 (wczeœneij nie bedzie bo mi siê nie bedzie chcialo).
+Akutalizaje mozecie sie spodziewac miedzy 12.00 az do 21.00 (wczeœneij nie bedzie bo mi siê nie bedzie chcialo)
+
+git clone link twojego repozytorium -klonuje link repozytorium i pliki do folderu.Po wpisaniu tego gotu mozesz pisaæ w gicie
+git status - przeglada pliki kture sa niesledzone i sa w poczekalni
+git pull - wyswietla ostatnie zmiany w repozytorium
+git brantch - wyœwielta branch master i brantche znajuj¹ce sie w twoim folderze.git 
+git checkout - pozwala przeniesc sie midzy repozytorum master a branch'ami.
+git add "nazwa pliku" - dodaje nowy/zmieniony plik do przechowalni/poczekalni.
+	{
+		git add . - dodaje WSZYSTKIE pliki
+	}
+git commit --m "komentarz" - zapisuje zmiany w pliku albo pozwala wyslac nowy.
+git push-wys³ya plik zatwierdzony przez commit.(UWAGA! wazne jest zeby plik zatwierdzic pierw commitem a potem push'em!)
+git clean - usuwa neisledzone pliki
+{
+	git clean -n - tworzy lieste plikow kture MOGA zostac usiniete
+	git clean -nd - wyswietlenie listy ze WYSZTKIMI plikami ktore moga zostac usuniete
+	git clean -idf - wyswietla menu ktore pozwla wybrac co i jak usunac
+		{
+			(wyswietlane opcie po wpisaniu komendy: "git clean -idf")
+			command
+			1 clean
+			2 filter by pattern
+			3 select by numbers
+			4 ask each - po wcisnieciu program pyta jaki plik usunac a ktury nei
+			5 quit - wyjscie
+			6 help -pomoc
+		}
+}
+
