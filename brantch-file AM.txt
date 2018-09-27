@@ -5,6 +5,9 @@ Akutalizaje mozecie sie spodziewac miedzy 12.00 az do 21.00 (wczeœneij nie bedzi
 git clone link twojego repozytorium -klonuje link repozytorium i pliki do folderu.Po wpisaniu tego gotu mozesz pisaæ w gicie
 git status - przeglada pliki kture sa niesledzone i sa w poczekalni
 git pull - wyswietla ostatnie zmiany w repozytorium
+	{
+		git pull origin naza brancha-pozwala na wyœwieltenie w folderze gdzie jest dany plik zmiany wprowadzone na innym komputerze
+	}
 git brantch - wyœwielta branch master i brantche znajuj¹ce sie w twoim folderze.git 
 git checkout - pozwala przeniesc sie midzy repozytorum master a branch'ami.
 git add "nazwa pliku" - dodaje nowy/zmieniony plik do przechowalni/poczekalni.
@@ -24,7 +27,7 @@ git clean - usuwa neisledzone pliki
 			1 clean
 			2 filter by pattern
 			3 select by numbers
-			4 ask each - po wcisnieciu program pyta jaki plik usunac a ktury nei
+			4 ask each - po wcisnieciu program pyta jaki plik usunac a ktury nie
 			5 quit - wyjscie
 			6 help -pomoc
 		}
